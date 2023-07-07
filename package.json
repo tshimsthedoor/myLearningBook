@@ -1,0 +1,17 @@
+{
+  "name": "mylearningbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "npx cypress open",
+    "test:chrome": "cypress run –browser chrome",
+    "test:firefox": "cypress run –browser firefox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.0"
+  }
+}
